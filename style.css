@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,700;0,900;1,300&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: Roboto, sans-serif;
+    margin: 0;
+}
+
+.content {
+    flex: 1;
+}
+
+/* HEADER & FOOTER */
+
+.header, .footer {
+    background: #1F2937;
+    display: flex;
+    align-items: center;
+}
+
+.header {
+    justify-content: space-between;
+    padding: 0 15%;
+}
+
+.footer {
+    justify-content: center;
+    padding: 15px;
+}
+
+.header h2 {
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.header a, .footer p {
+    color: #E5E7EB;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 0 4px;
+}
+
+/* HERO */
+
+.container {
+    color: #F9FAF8;
+    background: #1F2937;
+    display: flex;
+    padding: 100px 15% 150px;
+}
+
+.container h1 {
+    font-size: 48px;
+    margin: 0;
+    font-weight: 900;
+}
+
+.container p {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin: 10px 0;
+}
+
+.container .text {
+    width: 35vw;
+    padding-right: 75px;
+}
+
+.container .img {
+    background: gray;
+    width: 35vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    background: #3882F6;
+    font-size: 20px;
+    color: #F9FAF8;
+    border-radius: 10px;
+    width: 150px;
+    height: 40px;
+}
+
+/* INFO PANEL */
+
+.information {
+    padding: 50px 25% 125px;
+    text-align: center;
+}
+
+.information h2 {
+    font-size: 36px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.unit .img {
+    height: 150px;
+    width: 150px;
+    border: 5px solid #3882F6;
+    border-radius: 20px;
+    margin: 50px auto 10px;
+}
+
+.unit p {
+    width: 150px;
+    margin: 0;
+}
+
+/* QUOTE */
+
+.quote {
+    background: #E5E7EB;
+    padding: 125px 25% 100px;
+}
+
+.quote p {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: 100;
+    margin: 0;
+    padding-left: 25px;
+}
+
+.quote h2 {
+    text-align: right;
+    margin: 10px 0 0 0;
+}
+
+/* CALL TO ACTION */
+
+.btn-container {
+    background: #3882F6;
+    margin: 100px 15%;
+    padding: 50px 125px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    border-radius: 10px;;
+}
+
+.btn-container button {
+    border: 2px solid white;
+}
+
+.btn-container p, .btn-container h2 {
+    margin: 0;
+}
+
+.btn-container p {
+    margin-top: 3px;;
+}
